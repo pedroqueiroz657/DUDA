@@ -1,0 +1,75 @@
+#objetos {
+    background-color: #00BFFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 5px;
+    width: 120px;
+  }
+  
+  #btnlimpar { background-color: #A9A9A9; }
+  #btnpesquisar { background-color: #FFFF00; }
+  #btneditar { background-color: #FF4500; }
+  #btnsalvar { background-color: #00FF00; }
+  #btnexcluir { background-color: #FF0000; }
+  
+  #CaixaMensagem {
+    display: none;
+    position: fixed;
+    background: #000;
+    border-radius: 7px;
+    width: 550px;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #CaixaMensagem > div { background: #FFF; margin: 6px; }
+  #CaixaMensagem > div > #TituloMsg {
+    background: #FFFF00;
+    font-size: 22px;
+    padding: 10px;
+    color: #000;
+  }
+  #CaixaMensagem > div > #CorpoMsg {
+    background: #4169E1;
+    font-size: 15px;
+    padding: 20px;
+    color: #FFF;
+    text-align: center;
+  }
+  #CaixaMensagem > div > #RodapeMsg {
+    background: #4169E1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #Componentes {
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #FFF;
+    width: 100%;
+    z-index: 10;
+  }
+  

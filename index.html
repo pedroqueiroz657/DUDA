@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Processos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="objetos" style="width: 800px; height: 500px; border: 1px solid #808080">
+    <label id="Label1">Número do Processo</label>
+    <input id="Campo1" type="text" size="25" style="text-align:center">
+    
+    <label id="Label2">Rodovia</label>
+    <input id="Campo2" type="text" size="25">
+
+    <label id="Label3">Interessado</label>
+    <input id="Campo3" type="text" size="25">
+
+    <label id="Label4">Pendências</label>
+    <input id="Campo4" type="text" size="25">
+
+    <label id="Label5">Técnicos</label>
+    <input id="Campo5" type="text" size="25">
+
+    <label id="Label6">Data de Recebimento</label>
+    <input id="Campo6" type="text" size="25">
+
+    <label id="Label7">Data de Envio</label>
+    <input id="Campo7" type="text" size="25">
+
+    <label id="Label8">Tipo de Ocupação</label>
+    <input id="Campo8" type="text" size="25">
+
+    <label id="Label9">Município</label>
+    <input id="Campo9" type="text" size="25">
+
+    <label id="Label10">Latitude</label>
+    <input id="Campo10" type="text" size="25">
+
+    <label id="Label11">Longitude</label>
+    <input id="Campo11" type="text" size="25">
+
+    <label id="Label12">Gestor</label>
+    <input id="Campo12" type="text" size="25">
+
+    <label id="Label13">Engenheiro Responsável</label>
+    <input id="Campo13" type="text" size="25">
+
+    <label id="Label14">Data Final</label>
+    <input id="Campo14" type="text" size="25">
+
+    <label id="Label15">Área/Extensão</label>
+    <input id="Campo15" type="text" size="25">
+
+    <label id="Label16">Observações</label>
+    <input id="Campo16" type="text" size="25">
+    
+    <button id="btnlimpar" style="width: 100px; height: 30px">LIMPAR</button>
+    <button id="btnpesquisar" style="width: 100px; height: 30px">PESQUISAR</button>
+    <button id="btneditar" style="width: 100px; height: 30px">EDITAR</button>
+    <button id="btnsalvar" style="width: 100px; height: 30px">SALVAR</button>
+    <button id="btnexcluir" style="width: 100px; height: 30px" onclick="Confirm.Executar()">EXCLUIR</button>
+  </div>
+
+  <div id="Componentes"></div>
+  <div id="CaixaMensagem">
+    <div>
+      <div id="TituloMsg"></div>
+      <div id="CorpoMsg"></div>
+      <div id="RodapeMsg"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+  <script src="app.js"></script>  <!-- Arquivo JS com as funções de front-end -->
+</body>
+</html>
